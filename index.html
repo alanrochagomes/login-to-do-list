@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(45deg, rgb(253, 60, 255), rgb(0, 60, 255));
+        }
+        div{
+            background-color: rgba(0, 0, 0, 0.9);
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            padding: 80px;
+            border-radius: 15px;
+            color: white;
+        }
+        input{
+              padding: 15px;
+              
+        }
+        button{
+               background-color: dodgerblue;
+               border: none;
+               padding: 15px;
+               width: 100%;
+               border-radius: 10px;
+               color: white;
+               font-size: 15px;
+               cursor: pointer;
+        }
+        button:hover{
+            background-color: deepskyblue;
+        }
+    </style>
+    
+</head>
+<body>
+    <div>
+        <h1>Login</h1>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            
+            <label for="password"><br>Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <br>
+            <input type="submit" value="Entrar">
+        </form>
+        <br><br>
+        <script>
+            document.getElementById('loginForm').addEventListener('submit', function(event) {
+                event.preventDefault(); // Impede o envio padrão do formulário
+    
+                // Obtenha os valores de login e senha
+                var username = document.getElementById('username').value;
+                var password = document.getElementById('password').value;
+    
+                // Verifique se as credenciais estão corretas (simulação)
+                if (username === 'teste' && password === '123') {
+                    // Redirecione para a página desejada (simulação)
+                    window.location.href = 'https://alanrochagomes.github.io/To-Do-List/';
+                } else {
+                    alert('Credenciais incorretas. Tente novamente.');
+                }
+            });
+        </script>
+    </div>
+</body>
+</html>
