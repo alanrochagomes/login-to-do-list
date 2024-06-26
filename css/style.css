@@ -1,6 +1,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: linear-gradient(45deg, rgb(253, 60, 255), rgb(0, 60, 255));
+  background-image: url("../img/file cover - 1.png");
+  background-size: cover; /* Imagem de fundo cobrindo todo o elemento */
+  background-position: center;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -9,11 +11,12 @@ body {
 }
 
 .login-container {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgb(253, 176, 34);
   padding: 40px;
   border-radius: 15px;
-  color: white;
-  width: 300px;
+  color: rgb(0, 0, 0);
+  max-width: 300px;
+  width: 100%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -26,7 +29,7 @@ input {
 }
 
 button {
-  background-color: dodgerblue;
+  background-color: rgb(4, 35, 65);
   border: none;
   padding: 15px;
   width: 100%;
@@ -37,5 +40,5 @@ button {
 }
 
 button:hover {
-  background-color: deepskyblue;
+  background-color: #1d2939;
 }
