@@ -10,7 +10,8 @@ document
     // Verifique se as credenciais estão corretas (simulação)
     if (username === "teste" && password === "123") {
       // Redirecione para a página desejada (simulação)
-      window.location.href = "https://alanrochagomes.github.io/To-Do-List/";
+      window.location.href =
+        "https://github.com/alanrochagomes/react-projects-v2";
     } else {
       alert("Credenciais incorretas. Tente novamente.");
     }
