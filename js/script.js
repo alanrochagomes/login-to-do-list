@@ -10,8 +10,7 @@ document
     // Verifique se as credenciais estão corretas (simulação)
     if (username === "teste" && password === "123") {
       // Redirecione para a página desejada (simulação)
-      window.location.href =
-        "https://github.com/alanrochagomes/react-projects-v2";
+      window.location.href = "https://react-projects-v2.vercel.app/";
     } else {
       alert("Credenciais incorretas. Tente novamente.");
     }
