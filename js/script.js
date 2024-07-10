@@ -10,7 +10,7 @@ document
     // Verifique se as credenciais estão corretas (simulação)
     if (username === "teste" && password === "123") {
       // Redirecione para a página desejada (simulação)
-      window.location.href = "https://react-projects-v4.vercel.app/";
+      window.location.href = "https://todolist-app-v7.vercel.app/";
     } else {
       alert("Credenciais incorretas. Tente novamente.");
     }
